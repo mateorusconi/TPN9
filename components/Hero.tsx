@@ -9,10 +9,10 @@ const Hero: React.FC = () => {
       {/* Background decoration */}
       <div className="absolute inset-0 z-0 opacity-10 pointer-events-none">
         <svg className="h-full w-full" viewBox="0 0 100 100" preserveAspectRatio="none">
-            <path d="M0 100 L100 0" stroke="currentColor" strokeWidth="0.1" />
-            <path d="M0 0 L100 100" stroke="currentColor" strokeWidth="0.1" />
-            <circle cx="20" cy="20" r="10" stroke="currentColor" strokeWidth="0.1" fill="none" />
-            <circle cx="80" cy="80" r="15" stroke="currentColor" strokeWidth="0.1" fill="none" />
+          <path d="M0 100 L100 0" stroke="currentColor" strokeWidth="0.1" />
+          <path d="M0 0 L100 100" stroke="currentColor" strokeWidth="0.1" />
+          <circle cx="20" cy="20" r="10" stroke="currentColor" strokeWidth="0.1" fill="none" />
+          <circle cx="80" cy="80" r="15" stroke="currentColor" strokeWidth="0.1" fill="none" />
         </svg>
       </div>
 
@@ -29,10 +29,10 @@ const Hero: React.FC = () => {
             className="inline-flex items-center px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-semibold mb-6 border border-primary/20"
           >
             <GraduationCap className="w-4 h-4 mr-2" />
-            UTN - Facultad Regional Resistencia
+            UTN - Facultad Regional Tucumán
           </motion.div>
           <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight text-foreground mb-6">
-            Aprendiendo <br/>
+            Aprendiendo <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-yellow-500">Auditoría de Sistemas</span>
           </h1>
           <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
@@ -70,45 +70,45 @@ const Hero: React.FC = () => {
         >
           <div className="relative w-full h-[500px] bg-gradient-to-br from-orange-100 to-yellow-100 dark:from-orange-900/20 dark:to-yellow-900/20 rounded-3xl border border-primary/10 backdrop-blur-sm flex items-center justify-center p-8">
             <div className="absolute inset-0 bg-grid-black/[0.05] dark:bg-grid-white/[0.05] bg-[length:30px_30px]" />
-            
+
             {/* Abstract visual representation of learning/audit */}
             <div className="relative w-full max-w-sm">
-                 <motion.div 
-                    animate={{ y: [0, -15, 0] }}
-                    transition={{ repeat: Infinity, duration: 6, ease: "easeInOut" }}
-                    className="bg-card p-6 rounded-2xl shadow-xl border border-border z-20 relative"
-                 >
-                    <div className="flex items-center justify-between mb-4">
-                        <div className="h-3 w-3 rounded-full bg-red-400" />
-                        <div className="h-2 w-20 bg-muted rounded" />
-                    </div>
-                    <div className="space-y-2">
-                        <div className="h-2 w-full bg-muted/50 rounded" />
-                        <div className="h-2 w-5/6 bg-muted/50 rounded" />
-                        <div className="h-2 w-4/6 bg-muted/50 rounded" />
-                    </div>
-                    <div className="mt-4 flex gap-2">
-                        <span className="h-6 w-6 rounded bg-orange-100 dark:bg-orange-900/50 flex items-center justify-center">
-                            <Server className="w-3 h-3 text-orange-500" />
-                        </span>
-                    </div>
-                 </motion.div>
+              <motion.div
+                animate={{ y: [0, -15, 0] }}
+                transition={{ repeat: Infinity, duration: 6, ease: "easeInOut" }}
+                className="bg-card p-6 rounded-2xl shadow-xl border border-border z-20 relative"
+              >
+                <div className="flex items-center justify-between mb-4">
+                  <div className="h-3 w-3 rounded-full bg-red-400" />
+                  <div className="h-2 w-20 bg-muted rounded" />
+                </div>
+                <div className="space-y-2">
+                  <div className="h-2 w-full bg-muted/50 rounded" />
+                  <div className="h-2 w-5/6 bg-muted/50 rounded" />
+                  <div className="h-2 w-4/6 bg-muted/50 rounded" />
+                </div>
+                <div className="mt-4 flex gap-2">
+                  <span className="h-6 w-6 rounded bg-orange-100 dark:bg-orange-900/50 flex items-center justify-center">
+                    <Server className="w-3 h-3 text-orange-500" />
+                  </span>
+                </div>
+              </motion.div>
 
-                 <motion.div 
-                    animate={{ x: [0, 15, 0], y: [0, 10, 0] }}
-                    transition={{ repeat: Infinity, duration: 8, ease: "easeInOut", delay: 0.5 }}
-                    className="absolute -right-12 -bottom-12 bg-white dark:bg-zinc-900 p-5 rounded-2xl shadow-xl border border-border z-10 w-48"
-                 >
-                     <div className="flex items-center gap-3 mb-2">
-                         <div className="p-2 bg-green-100 dark:bg-green-900/30 rounded-lg">
-                             <GraduationCap className="w-5 h-5 text-green-600 dark:text-green-400" />
-                         </div>
-                         <div className="text-xs font-bold text-muted-foreground">TP Aprobado</div>
-                     </div>
-                     <div className="h-2 w-full bg-green-500 rounded-full opacity-20 overflow-hidden">
-                         <div className="h-full w-3/4 bg-green-500" />
-                     </div>
-                 </motion.div>
+              <motion.div
+                animate={{ x: [0, 15, 0], y: [0, 10, 0] }}
+                transition={{ repeat: Infinity, duration: 8, ease: "easeInOut", delay: 0.5 }}
+                className="absolute -right-12 -bottom-12 bg-white dark:bg-zinc-900 p-5 rounded-2xl shadow-xl border border-border z-10 w-48"
+              >
+                <div className="flex items-center gap-3 mb-2">
+                  <div className="p-2 bg-green-100 dark:bg-green-900/30 rounded-lg">
+                    <GraduationCap className="w-5 h-5 text-green-600 dark:text-green-400" />
+                  </div>
+                  <div className="text-xs font-bold text-muted-foreground">TP Aprobado</div>
+                </div>
+                <div className="h-2 w-full bg-green-500 rounded-full opacity-20 overflow-hidden">
+                  <div className="h-full w-3/4 bg-green-500" />
+                </div>
+              </motion.div>
             </div>
           </div>
         </motion.div>

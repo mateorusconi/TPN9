@@ -9,14 +9,14 @@ const Footer: React.FC = () => {
             Trabajo Práctico Nº9
           </p>
           <p className="text-xs text-muted-foreground mt-1">
-            Auditoría de Sistemas - UTN Facultad Regional Resistencia
+            Auditoría de Sistemas - UTN Facultad Regional Tucumán
           </p>
           <p className="text-xs text-muted-foreground mt-1">
             © {new Date().getFullYear()} Proyecto Educativo.
           </p>
         </div>
         <div className="flex space-x-6">
-           <span className="text-xs text-muted-foreground bg-secondary px-2 py-1 rounded">Fines Académicos</span>
+          <span className="text-xs text-muted-foreground bg-secondary px-2 py-1 rounded">Fines Académicos</span>
         </div>
       </div>
     </footer>

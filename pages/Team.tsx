@@ -9,28 +9,50 @@ const Team: React.FC = () => {
     {
       name: 'Mateo Rusconi',
       title: 'Auditoría de Sistemas',
+<<<<<<< HEAD
       avatar: '/assets/team/mateo.jpg', // Updated image
       handle: 'mateo_rusconi',
       role: 'Estudiante',
       miniAvatar: '/assets/team/mateo.jpg',
+=======
+      // Ensure these files are in your public folder and use absolute paths
+      avatar: '/WhatsApp Image 2025-12-12 at 2.04.33 AM.jpeg',
+      handle: 'mateo_rusconi',
+      role: 'Estudiante',
+      miniAvatar: '/WhatsApp Image 2025-12-12 at 2.04.33 AM.jpeg',
+>>>>>>> 4c30ec9d6fc560401d080f9e98fb7dd2b92d6114
       gradient: 'linear-gradient(135deg, rgba(59, 130, 246, 0.4) 0%, rgba(37, 99, 235, 0.4) 100%)'
     },
     {
       name: 'Nicolas Ruiz Paez',
       title: 'Auditoría de Sistemas',
+<<<<<<< HEAD
       avatar: '/assets/team/nicolas.jpg', // Updated image
       handle: 'nico_ruiz',
       role: 'Estudiante',
       miniAvatar: '/assets/team/nicolas.jpg',
+=======
+      avatar: '/WhatsApp Image 2025-12-12 at 2.02.48 AM.jpeg',
+      handle: 'nico_ruiz',
+      role: 'Estudiante',
+      miniAvatar: '/WhatsApp Image 2025-12-12 at 2.02.48 AM.jpeg',
+>>>>>>> 4c30ec9d6fc560401d080f9e98fb7dd2b92d6114
       gradient: 'linear-gradient(135deg, rgba(16, 185, 129, 0.4) 0%, rgba(5, 150, 105, 0.4) 100%)'
     },
     {
       name: 'Mauricio Paez',
       title: 'Auditoría de Sistemas',
+<<<<<<< HEAD
       avatar: '/assets/team/mauricio.jpg', // Updated image
       handle: 'mauro_paez',
       role: 'Estudiante',
       miniAvatar: '/assets/team/mauricio.jpg',
+=======
+      avatar: '/WhatsApp Image 2025-12-12 at 2.02.40 AM.jpeg',
+      handle: 'mauro_paez',
+      role: 'Estudiante',
+      miniAvatar: '/WhatsApp Image 2025-12-12 at 2.02.40 AM.jpeg',
+>>>>>>> 4c30ec9d6fc560401d080f9e98fb7dd2b92d6114
       gradient: 'linear-gradient(135deg, rgba(249, 115, 22, 0.4) 0%, rgba(234, 88, 12, 0.4) 100%)'
     }
   ];

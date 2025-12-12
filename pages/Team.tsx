@@ -8,29 +8,29 @@ const Team: React.FC = () => {
     {
       name: 'Mateo Rusconi',
       title: 'Auditoría de Sistemas',
-      // Photos as requested by user. Ensure these files are in your public folder.
-      avatar: './WhatsApp Image 2025-12-12 at 2.04.33 AM.jpeg',
+      // Ensure these files are in your public folder and use absolute paths
+      avatar: '/WhatsApp Image 2025-12-12 at 2.04.33 AM.jpeg',
       handle: 'mateo_rusconi',
       role: 'Estudiante',
-      miniAvatar: './WhatsApp Image 2025-12-12 at 2.04.33 AM.jpeg',
+      miniAvatar: '/WhatsApp Image 2025-12-12 at 2.04.33 AM.jpeg',
       gradient: 'linear-gradient(135deg, rgba(59, 130, 246, 0.4) 0%, rgba(37, 99, 235, 0.4) 100%)'
     },
     {
       name: 'Nicolas Ruiz Paez',
       title: 'Auditoría de Sistemas',
-      avatar: './WhatsApp Image 2025-12-12 at 2.02.48 AM.jpeg',
+      avatar: '/WhatsApp Image 2025-12-12 at 2.02.48 AM.jpeg',
       handle: 'nico_ruiz',
       role: 'Estudiante',
-      miniAvatar: './WhatsApp Image 2025-12-12 at 2.02.48 AM.jpeg',
+      miniAvatar: '/WhatsApp Image 2025-12-12 at 2.02.48 AM.jpeg',
       gradient: 'linear-gradient(135deg, rgba(16, 185, 129, 0.4) 0%, rgba(5, 150, 105, 0.4) 100%)'
     },
     {
       name: 'Mauricio Paez',
       title: 'Auditoría de Sistemas',
-      avatar: './WhatsApp Image 2025-12-12 at 2.02.40 AM.jpeg',
+      avatar: '/WhatsApp Image 2025-12-12 at 2.02.40 AM.jpeg',
       handle: 'mauro_paez',
       role: 'Estudiante',
-      miniAvatar: './WhatsApp Image 2025-12-12 at 2.02.40 AM.jpeg',
+      miniAvatar: '/WhatsApp Image 2025-12-12 at 2.02.40 AM.jpeg',
       gradient: 'linear-gradient(135deg, rgba(249, 115, 22, 0.4) 0%, rgba(234, 88, 12, 0.4) 100%)'
     }
   ];

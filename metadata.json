@@ -1,0 +1,5 @@
+{
+  "name": "AuditSecure - Consultora de Auditoría de Sistemas",
+  "description": "Una aplicación web interactiva que simula una consultora de ciberseguridad para explicar conceptos de Auditoría de Sistemas.",
+  "requestFramePermissions": []
+}

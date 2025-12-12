@@ -9,50 +9,28 @@ const Team: React.FC = () => {
     {
       name: 'Mateo Rusconi',
       title: 'Auditoría de Sistemas',
-<<<<<<< HEAD
-      avatar: '/assets/team/mateo.jpg', // Updated image
+      avatar: '/TPN9/assets/team/mateo.jpg',
       handle: 'mateo_rusconi',
       role: 'Estudiante',
-      miniAvatar: '/assets/team/mateo.jpg',
-=======
-      // Ensure these files are in your public folder and use absolute paths
-      avatar: '/WhatsApp Image 2025-12-12 at 2.04.33 AM.jpeg',
-      handle: 'mateo_rusconi',
-      role: 'Estudiante',
-      miniAvatar: '/WhatsApp Image 2025-12-12 at 2.04.33 AM.jpeg',
->>>>>>> 4c30ec9d6fc560401d080f9e98fb7dd2b92d6114
+      miniAvatar: '/TPN9/assets/team/mateo.jpg',
       gradient: 'linear-gradient(135deg, rgba(59, 130, 246, 0.4) 0%, rgba(37, 99, 235, 0.4) 100%)'
     },
     {
       name: 'Nicolas Ruiz Paez',
       title: 'Auditoría de Sistemas',
-<<<<<<< HEAD
-      avatar: '/assets/team/nicolas.jpg', // Updated image
+      avatar: '/TPN9/assets/team/nicolas.jpg',
       handle: 'nico_ruiz',
       role: 'Estudiante',
-      miniAvatar: '/assets/team/nicolas.jpg',
-=======
-      avatar: '/WhatsApp Image 2025-12-12 at 2.02.48 AM.jpeg',
-      handle: 'nico_ruiz',
-      role: 'Estudiante',
-      miniAvatar: '/WhatsApp Image 2025-12-12 at 2.02.48 AM.jpeg',
->>>>>>> 4c30ec9d6fc560401d080f9e98fb7dd2b92d6114
+      miniAvatar: '/TPN9/assets/team/nicolas.jpg',
       gradient: 'linear-gradient(135deg, rgba(16, 185, 129, 0.4) 0%, rgba(5, 150, 105, 0.4) 100%)'
     },
     {
       name: 'Mauricio Paez',
       title: 'Auditoría de Sistemas',
-<<<<<<< HEAD
-      avatar: '/assets/team/mauricio.jpg', // Updated image
+      avatar: '/TPN9/assets/team/mauricio.jpg',
       handle: 'mauro_paez',
       role: 'Estudiante',
-      miniAvatar: '/assets/team/mauricio.jpg',
-=======
-      avatar: '/WhatsApp Image 2025-12-12 at 2.02.40 AM.jpeg',
-      handle: 'mauro_paez',
-      role: 'Estudiante',
-      miniAvatar: '/WhatsApp Image 2025-12-12 at 2.02.40 AM.jpeg',
->>>>>>> 4c30ec9d6fc560401d080f9e98fb7dd2b92d6114
+      miniAvatar: '/TPN9/assets/team/mauricio.jpg',
       gradient: 'linear-gradient(135deg, rgba(249, 115, 22, 0.4) 0%, rgba(234, 88, 12, 0.4) 100%)'
     }
   ];
@@ -89,7 +67,6 @@ const Team: React.FC = () => {
                 showPattern={true}
                 overlayContent={
                   <div className="absolute bottom-4 left-4 z-20 flex flex-col items-start space-y-2">
-                    {/* User Info "Show User Info" as requested */}
                     <div className="p-2 bg-black/40 backdrop-blur-md rounded-lg border border-white/10">
                       <p className="text-white font-semibold text-sm">{member.name}</p>
                       <p className="text-xs text-gray-300">@{member.handle}</p>
